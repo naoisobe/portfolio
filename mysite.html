@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <link rel="stylesheet" href="mysite.css" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>自己紹介ページ</title>
+</head>
+<body>
+  
+  <header>
+    <div class="top">
+      <img src="img/profile.jpg" id="icon">
+      <span id="myname">磯部　直 (いそべ　なお)</span>
+      <nav>
+        <ul>
+          <li><a href="https://github.com/naoisobe?tab=repositories" target="_blank">githubはこちら</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <h2>基本情報</h2>
+      <div class="profile">
+        <p>　　　名前：磯部　直（いそべ　なお）</p>
+        <p>　生年月日：1995年8月6日</p>
+        <p>　　　年齢：2４歳</p>
+        <p>　　出身地：大阪府出身</p>
+        <p>学習中言語：Ruby on Rails </p>
+      </div>
+
+    <hr>
+    
+    <h2>経歴</h2>
+    <ul class="profile">
+      <li>2019年3月　神戸大学　海事科学部　卒業</li>
+      <li>2019年4月　三井物産グローバルロジスティクス株式会社　入社</li>
+      <li>2020年1月　三井物産グローバルロジスティクス株式会社　退社</li>
+      <li>2020年4月〜　プログラミング勉強開始</li>
+      <li>現在転職活動中</li>
+    </ul>
+
+    <hr>
+    
+    <h2>プログラミングスキル(未経験で独学期間は4ヶ月)</h2>
+    <div class="profile">
+      <p>html, css , Javascript,  Ruby, Ruby on Rails</p>
+      <p>成果物に関しては下記をご参照ください</p>
+    </div>
+
+    <hr>
+
+    <h2>どの様な業務をしたいか</h2>
+    <div class="profile">
+      <h3>多くの人の役に立つ画期的で面白いアプリの開発に携わりたいです。</h3>
+      <p>そのために必要な言語やスキルを常に取り入れていける環境で働きたいです。</p>
+      <p>将来的にはマーケティングの知識も身につけ、サービス運用にも携わっていきたいです。</p>
+    </div>
+
+    <hr>
+  </div>
+
+  <div class="container app-container">
+    <h1>成果物1</h1>
+    <h2 class="content_title">Book-Review-Shelf(Ruby on Rails)</h2>
+      <div>
+        <div class="main-info">
+          <p>制作したサイトへのリンク</p>
+          <a href="https://sheltered-fjord-56405.herokuapp.com/" target="_blank"><img src="img/book-review-shelf.png" alt="Book-Review-Shelf"></a>
+        </div>
+        <div class="right_space">
+          <section class="flex">
+            <div class="icon">
+              <i class="fas fa-chalkboard"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">サイトの概要</h4>
+              <ul>
+                <li>・読んだ本の書評を投稿できるサイト </li>
+                <li>・投稿フォームに要約、感想、メモ欄が用意されており、本の内容が記憶に残りやすいように設計</li>
+              </ul>
+            </div>
+          </section>
+          <section class="flex">
+            <div class="icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">ソースコード</h4>
+              <a href="https://github.com/naoisobe/book_review_shelf" class="github blue-link" target="_blank">GitHub(book_review_shelf)</a>
+            </div>
+          </section>
+          <section class="flex">
+            <div class="icon">
+              <i class="far fa-lightbulb"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">こだわりポイント</h4>
+              <ul>
+                <li>・フォロー、フォロワー機能の実装</li>
+                <li>・いいね機能も実装</li>
+                <li>・ログイン機能を実装</li>
+                <li>・パスワードを暗号化して保存する処理を実装</li>
+                <li>・RSpecを使用したテストコードの実装</li>
+              </ul>
+            </div>
+          </section>
+          <section class="flex">
+            <div class="icon">
+              <i class="far fa-gem"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">使用したGem</h4>
+              <ul>
+                <li>・RSpec：テストコード</li>
+                <li></li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+  </div>
+
+  <div class="container app-container">
+    <h1>成果物2</h1>
+    <h2 class="content_title">ゲームの戦闘画面（Ruby）</h2>
+      <div class="main-info">
+        <p>制作したゲームの実行画面動画</p>
+        <video autoplay muted playsinline controls src="img/draque-app2.mov" class="capture_video"></video>
+      </div>
+      <div class="info">
+        <h4 class="top_info">アプリの概要</h4>
+        <ul>
+          <li>ドラクエなどのRPGゲームの戦闘画面をRubyを用いて再現</li>
+        </ul>
+      </div>
+      <div class="info">
+        <h4 class="top_info">ソースコード</h4>
+        <a href="https://github.com/naoisobe/draque_app" class="github blue-link" target="_blank">GitHub(Draque-app)</a>
+      </div>
+      <div class="info">
+        <h4 class="top_info">こだわりポイント</h4>
+        <ul>
+          <li>・クラス継承、ファイルの分割等を行い、コードを読みやすくしました。</li>
+        </ul>
+      </div>
+  </div>
+    
+
+  <div class="container app-container">
+    <h1>成果物3</h1>
+    <h2 class="content_title">TODOアプリ（Ruby）</h2>
+      <div class="main-info">
+        <p>制作したゲームの実行画面動画</p>
+        <video autoplay muted playsinline controls src="img/todo-app.mov" class="capture_video"></video>
+      </div>
+      <div class="info">
+        <h4 class="top_info">アプリの概要</h4>
+        <ul>
+          <li>簡単なCRUD処理をRuby on Rails を用いずに作成したコード </li>
+          <li>タスクの登録、更新、削除ができ、また一覧、詳細を表示できる</li>
+        </ul>
+      </div>
+      <div class="info">
+        <h4 class="top_info">ソースコード</h4>
+        <a href="https://github.com/naoisobe/ruby_todo_app" class="github blue-link" target="_blank">GitHub(todo-app)</a>
+      </div>
+  </div>
+
+  <div class="container app-container">
+    <p>coming soon...</p>
+  </div>
+
+  <footer>
+    <p>&copy; n.isobe</p>
+  </footer>
+
+</body>
+</html>
